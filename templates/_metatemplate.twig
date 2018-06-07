@@ -1,0 +1,6 @@
+{% if description|default() is not empty %}
+    <meta name="description" content="{{ description }}"/>
+{% endif %}
+{% if keywords|default() is not empty %}
+    <meta name="keywords" content="{{ keywords }}"/>
+{% endif %}

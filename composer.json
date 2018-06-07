@@ -1,0 +1,26 @@
+{
+    "name": "zinit/bolt3-seo-meta-manager",
+    "description": "Bolt CMS 3 SEO Meta Manager",
+    "type": "bolt-extension",
+    "keywords": ["seo", "meta"],
+    "require": {
+        "bolt/bolt": "^3.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zinit Solutions GmbH",
+            "homepage": "http://zinitsolutions.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Zinit\\SeoMetaManager\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-class": "Bolt\\Extension\\Zinit\\SeoMetaManager\\SeoMetaManagerExtension"
+    }
+}

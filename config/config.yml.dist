@@ -1,0 +1,17 @@
+# Templates
+templates:
+    metatemplate: @bolt/_metatemplate.twig
+
+# SEO meta data
+#
+# Keys of this array must be URI ($_SERVER['REQUEST_URI']) of your site page without a domain but starting with a slash.
+# For example:
+#   /               - key for page http://example.com/  (homepage)
+#   /contacts       - key for page http://example.com/contacts
+#   /page/info      - key for page http://example.com/page/info
+#
+meta:
+    /:                          # meta data for homepage
+        title: Home
+        description:
+        keywords: 
