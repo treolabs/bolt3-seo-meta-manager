@@ -1,11 +1,8 @@
 <?php
 
-namespace Bolt\Extension\Zinit\SeoMetaManager;
+namespace Bolt\Extension\ZinitSolutionsGmbH\SeoMetaManager;
 
-use Bolt\Helpers\Html;
-use Bolt\Legacy\Content;
 use Silex\Application;
-use Bolt\Storage\Field\Collection\RepeatingFieldCollection;
 
 class Meta
 {

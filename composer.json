@@ -1,5 +1,5 @@
 {
-    "name": "zinit/bolt3-seo-meta-manager",
+    "name": "zinitsolutionsgmbh/bolt3-seo-meta-manager",
     "description": "Bolt CMS 3 SEO Meta Manager",
     "type": "bolt-extension",
     "keywords": ["seo", "meta"],
@@ -17,10 +17,10 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\Zinit\\SeoMetaManager\\": "src"
+            "Bolt\\Extension\\ZinitSolutionsGmbH\\SeoMetaManager\\": "src"
         }
     },
     "extra": {
-        "bolt-class": "Bolt\\Extension\\Zinit\\SeoMetaManager\\SeoMetaManagerExtension"
+        "bolt-class": "Bolt\\Extension\\ZinitSolutionsGmbH\\SeoMetaManager\\SeoMetaManagerExtension"
     }
 }

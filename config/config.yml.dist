@@ -4,7 +4,8 @@ templates:
 
 # SEO meta data
 #
-# Keys of this array must be URI ($_SERVER['REQUEST_URI']) of your site page without a domain but starting with a slash.
+# Keys of this array must be URI ($_SERVER['REQUEST_URI']) of your site page 
+# without a domain but starting with a slash.
 # For example:
 #   /               - key for page http://example.com/  (homepage)
 #   /contacts       - key for page http://example.com/contacts
