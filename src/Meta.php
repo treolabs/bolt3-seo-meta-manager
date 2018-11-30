@@ -1,6 +1,6 @@
 <?php
 
-namespace Bolt\Extension\ZinitSolutionsGmbH\SeoMetaManager;
+namespace Bolt\Extension\TreoLabs\SeoMetaManager;
 
 use Silex\Application;
 

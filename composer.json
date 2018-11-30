@@ -1,5 +1,5 @@
 {
-    "name": "zinitsolutionsgmbh/bolt3-seo-meta-manager",
+    "name": "treolabs/bolt3-seo-meta-manager",
     "description": "Bolt CMS 3 SEO Meta Manager",
     "type": "bolt-extension",
     "keywords": ["seo", "meta"],
@@ -9,18 +9,18 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Zinit Solutions GmbH",
-            "homepage": "http://zinitsolutions.de"
+            "name": "TreoLabs GmbH",
+            "homepage": "https://treolabs.com"
         }
     ],
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\ZinitSolutionsGmbH\\SeoMetaManager\\": "src"
+            "Bolt\\Extension\\TreoLabs\\SeoMetaManager\\": "src"
         }
     },
     "extra": {
-        "bolt-class": "Bolt\\Extension\\ZinitSolutionsGmbH\\SeoMetaManager\\SeoMetaManagerExtension"
+        "bolt-class": "Bolt\\Extension\\TreoLabs\\SeoMetaManager\\SeoMetaManagerExtension"
     }
 }
